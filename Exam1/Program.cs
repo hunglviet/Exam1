@@ -10,17 +10,18 @@ namespace Exam1
     {
         static void Main(string[] args)
         {
-
             int keyboard;
 
             do
             {
+
                 Console.WriteLine("Please input number below to continue");
                 Console.WriteLine("1--Exam about array");
                 Console.WriteLine("2--Your birthday");
                 Console.WriteLine("3--Quit program");
                 keyboard = Convert.ToInt32(Console.ReadLine());
 
+                Console.Clear();
                 if (keyboard == 1)
                 {
                     Question1.Q1();
@@ -29,8 +30,11 @@ namespace Exam1
                 {
                     Question2.sign();
                 }
+                Console.WriteLine("Press any key to continue!");
+                //
             } while (keyboard < 3);
-            Console.ReadLine();
+
+
 
         }
     }

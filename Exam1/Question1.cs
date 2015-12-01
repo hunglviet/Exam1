@@ -37,7 +37,7 @@ namespace Exam1
             int a = Convert.ToInt32( Console.ReadLine());
             if (a < 0 || a > arr1.Length)
             {
-                Console.WriteLine("{} is out of range in your aaray");
+                Console.WriteLine("{0} is out of range in your aray",a-1);
             }
             else
             {
@@ -55,7 +55,7 @@ namespace Exam1
                 Console.WriteLine(item);
             }
 
-            Console.ReadLine();
+            //Console.ReadLine();
         }
     }
 }

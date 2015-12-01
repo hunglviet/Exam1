@@ -30,7 +30,7 @@ namespace Exam1
             DateTime now = DateTime.Now;
             if (birthdate > now || (now.Year - birthdate.Year) > 135)
             {
-                Console.WriteLine("Your birthday is out of my range");
+                Console.WriteLine("Oh! Oh! Your are larger than 135 year old! I'm not sure!");
             }
             else
             {
